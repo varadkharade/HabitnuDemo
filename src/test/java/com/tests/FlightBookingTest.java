@@ -3,6 +3,7 @@ package com.tests;
 import com.PageClasses.HomePage;
 import com.PageClasses.PurchasePage;
 import com.PageClasses.PurchaseConfirmationPage;
+import com.utils.ExcelUtils;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.OutputType;
@@ -85,10 +86,13 @@ public class FlightBookingTest {
     }
 
     @DataProvider(name = "flightData")
-    public Object[][] flightData() {
-        return new Object[][]{
-            {"https://blazedemo.com/index.php", "Mexico City", "London"}
-        };
+    public Object[][] flightData() throws IOException {
+        String excelFilePath = "C:\\Users\\varad\\OneDrive\\Desktop\\Habitnu\\demo\\src\\main\\resources\\flightData.xlsx";
+        String sheetName = "Sheet1";
+        ExcelUtils excelUtils = new ExcelUtils(excelFilePath, sheetName);
+        Object[][] data = excelUtils.getTestData();
+        excelUtils.close();
+        return data;
     }
 
     public void captureScreenshot(String testName) {

@@ -198,3 +198,35 @@ java.io.FileNotFoundException: screenshots\testFlightBooking_20250313130658.png 
 2025-03-13 13:20:37 INFO  PurchaseConfirmationPage:37 - Page title is displayed: true
 2025-03-13 13:20:37 INFO  PurchaseConfirmationPage:50 - ID value: 1741852236831
 2025-03-13 13:20:37 INFO  FlightBookingTest:43 - Teardown completed
+2025-03-13 13:38:06 INFO  FlightBookingTest:37 - Setup completed
+2025-03-13 13:38:10 INFO  HomePage:41 - Navigated to Home Page: https://blazedemo.com/index.php
+2025-03-13 13:38:10 INFO  HomePage:52 - Home Page title is displayed: true
+2025-03-13 13:38:12 INFO  HomePage:67 - Clicked on 'destination of the week! The Beach!' link
+2025-03-13 13:38:12 INFO  HomePage:99 - URL contains 'vacation'
+2025-03-13 13:38:12 INFO  HomePage:106 - Navigated back to Home Page
+2025-03-13 13:38:12 INFO  HomePage:121 - Selected departure city: Mexico City
+2025-03-13 13:38:12 INFO  HomePage:127 - Selected destination city: London
+2025-03-13 13:38:13 INFO  HomePage:132 - Clicked on 'Find Flights' button
+2025-03-13 13:38:13 INFO  PurchasePage:43 - Page title is displayed: true
+2025-03-13 13:38:14 INFO  PurchasePage:70 - Selected flight with lowest price: $200.98
+2025-03-13 13:38:14 INFO  PurchasePage:85 - Purchase page is displayed: true
+2025-03-13 13:38:14 INFO  PurchasePage:98 - Total Cost field is displayed with correct format: true
+2025-03-13 13:38:14 INFO  PurchasePage:111 - Clicked on 'Purchase flight' button
+2025-03-13 13:38:14 INFO  PurchaseConfirmationPage:37 - Page title is displayed: true
+2025-03-13 13:38:14 INFO  PurchaseConfirmationPage:50 - ID value: 1741853294487
+2025-03-13 13:38:15 INFO  HomePage:41 - Navigated to Home Page: https://blazedemo.com/index.php
+2025-03-13 13:38:15 INFO  HomePage:52 - Home Page title is displayed: true
+2025-03-13 13:38:16 INFO  HomePage:67 - Clicked on 'destination of the week! The Beach!' link
+2025-03-13 13:38:16 INFO  HomePage:99 - URL contains 'vacation'
+2025-03-13 13:38:16 INFO  HomePage:106 - Navigated back to Home Page
+2025-03-13 13:38:16 INFO  HomePage:121 - Selected departure city: Boston
+2025-03-13 13:38:16 INFO  HomePage:127 - Selected destination city: Berlin
+2025-03-13 13:38:17 INFO  HomePage:132 - Clicked on 'Find Flights' button
+2025-03-13 13:38:17 INFO  PurchasePage:43 - Page title is displayed: true
+2025-03-13 13:38:17 INFO  PurchasePage:70 - Selected flight with lowest price: $200.98
+2025-03-13 13:38:17 INFO  PurchasePage:85 - Purchase page is displayed: true
+2025-03-13 13:38:17 INFO  PurchasePage:98 - Total Cost field is displayed with correct format: true
+2025-03-13 13:38:18 INFO  PurchasePage:111 - Clicked on 'Purchase flight' button
+2025-03-13 13:38:18 INFO  PurchaseConfirmationPage:37 - Page title is displayed: true
+2025-03-13 13:38:18 INFO  PurchaseConfirmationPage:50 - ID value: 1741853298607
+2025-03-13 13:38:19 INFO  FlightBookingTest:44 - Teardown completed
